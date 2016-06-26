@@ -12,6 +12,9 @@
 		<class>com.ashish.jpa.model.Players</class>
 		<class>com.ashish.jpa.model.SoccerPlayers</class>
 		<class>com.ashish.jpa.model.TennisPlayers</class>
+		<class>com.ashish.jpa.model.Shapes</class>
+		<class>com.ashish.jpa.model.Rectangle</class>
+		<class>com.ashish.jpa.model.Circle</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver" />
