@@ -9,6 +9,9 @@
 		<class>com.ashish.jpa.model.Staff</class>
 		<class>com.ashish.jpa.model.TeachingStaff</class>
 		<class>com.ashish.jpa.model.NonTeachingStaff</class>
+		<class>com.ashish.jpa.model.Players</class>
+		<class>com.ashish.jpa.model.SoccerPlayers</class>
+		<class>com.ashish.jpa.model.TennisPlayers</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver" />
