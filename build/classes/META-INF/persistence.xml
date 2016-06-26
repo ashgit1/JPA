@@ -6,6 +6,9 @@
 	<persistence-unit name="Ashish_JPA" transaction-type="RESOURCE_LOCAL">
 
 		<class>com.ashish.jpa.model.Employee</class>
+		<class>com.ashish.jpa.model.Staff</class>
+		<class>com.ashish.jpa.model.TeachingStaff</class>
+		<class>com.ashish.jpa.model.NonTeachingStaff</class>
 
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver" />
