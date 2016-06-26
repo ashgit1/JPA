@@ -18,10 +18,10 @@ public class CreateEmployee {
 		
 		//setting up the employee object
 		Employee employee = new Employee();
-		employee.setEid(104);
-		employee.setEname("Novak");
-		employee.setSalary(2900);
-		employee.setDeg("Bsc. Comp Science");
+		employee.setEid(106);
+		employee.setEname("Alonso");
+		employee.setSalary(3300);
+		employee.setDeg("BA");
 		
 		// persisting the object...
 		entitymanager.persist(employee);
